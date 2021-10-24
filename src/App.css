@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.new-todo-form {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  bottom: 50px;
+
+  
+}
+
+.new-todo-input {
+  width: 500px;
+  height: 60px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: large;
+}
+
+.new-todo-button {
+  width: 100px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  color: beige;
+  background: red;
+  margin-left: 20px;
+}
+
+
+
+.todo-list {
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1, h2, h3 {
+  color: red
+}
+
+h1 {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 20px;
+}
+
+
+.todo-item-button {
+  width: 50px;
+  height: 20px;
+  border-radius: 15px;
+  border: none;
+  color: beige;
+  background: red;
+  margin-left: 15px;
+}
+
+.edit-todo-input {
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: larger;
+}
+
+
+.todo-item {
+  font-size: large;
+  width: 400px;
+  text-align: justify;
+}
+
+
+.open-todos {
+  width: 90%;
+  height: 40%;
+  border: red 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.finished-todos {
+  width: 80%;
+  height: 30%;
+  border: red 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  font-size: large;
+  color: darkblue;
+  margin-bottom: 10px;
+}
+
